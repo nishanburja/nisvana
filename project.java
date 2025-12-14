@@ -103,7 +103,7 @@ public class project
   
   Scanner scan= new Scanner(System.in);
   System.out.println("What is your age?");
-  
+
   int ageee= scan.nextInt();
   
   String isEligible= (ageee >= 18)? "Driving is allowed" : "Driving is not allowed";
