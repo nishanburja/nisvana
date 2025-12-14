@@ -13,8 +13,8 @@ public class week_5Qsenario
         Scanner sc = new Scanner(System.in);
         
         System.out.println("╔══════════════════════════════════════════════╗");
-        System.out.println("║   NEPAL INVESTMENT BANK - FIXED DEPOSIT     ║");
-        System.out.println("║          Monthly Compounding Calculator     ║");
+        System.out.println("║   NEPAL INVESTMENT BANK - FIXED DEPOSIT      ║");
+        System.out.println("║          Monthly Compounding Calculator      ║");
         System.out.println("╚══════════════════════════════════════════════╝");
         
         System.out.println("\nAVAILABLE INTEREST RATES:");
@@ -75,10 +75,10 @@ public class week_5Qsenario
             System.out.println  ("│ Interest Rate:           %6.2f%%           │\n"+ R);
             System.out.println  ("│ Duration:                %3d years         │\n"+ T);
             System.out.println  ("├────────────────────────────────────────────┤");
-            System.out.println  ("│ Maturity Amount:    Rs. %12.2f     │\n"+ A);
-            System.out.println  ("│ Processing Fee:     Rs. %12.2f     │\n"+ fee);
+            System.out.println  ("│ Maturity Amount:    Rs. %12.2f      │\n"+ A);
+            System.out.println  ("│ Processing Fee:     Rs. %12.2f      │\n"+ fee);
             System.out.println  ("├────────────────────────────────────────────┤");
-            System.out.println  ("│ FINAL AMOUNT:       Rs. %12.2f     │\n" + finalAmt);
+            System.out.println  ("│ FINAL AMOUNT:       Rs. %12.2f      │\n" + finalAmt);
             System.out.println  ("└────────────────────────────────────────────┘");
             
         }
