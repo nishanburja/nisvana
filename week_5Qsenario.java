@@ -69,17 +69,17 @@ public class week_5Qsenario
             
             
             System.out.println("\n┌────────────────────────────────────────────┐");
-            System.out.println("│           FD CALCULATION SUMMARY           │");
-            System.out.println("├────────────────────────────────────────────┤");
-            System.out.printf("│ Deposit Amount:      Rs. %12.2f     │\n", P);
-            System.out.printf("│ Interest Rate:           %6.2f%%         │\n", R);
-            System.out.printf("│ Duration:                %3d years       │\n", T);
-            System.out.println("├────────────────────────────────────────────┤");
-            System.out.printf("│ Maturity Amount:    Rs. %12.2f     │\n", A);
-            System.out.printf("│ Processing Fee:     Rs. %12.2f     │\n", fee);
-            System.out.println("├────────────────────────────────────────────┤");
-            System.out.printf("│ FINAL AMOUNT:       Rs. %12.2f     │\n", finalAmt);
-            System.out.println("└────────────────────────────────────────────┘");
+            System.out.println  ("│           FD CALCULATION SUMMARY           │");
+            System.out.println  ("├────────────────────────────────────────────┤");
+            System.out.println  ("│ Deposit Amount:      Rs. %12.2f     │\n"+ P);
+            System.out.println  ("│ Interest Rate:           %6.2f%%           │\n"+ R);
+            System.out.println  ("│ Duration:                %3d years         │\n"+ T);
+            System.out.println  ("├────────────────────────────────────────────┤");
+            System.out.println  ("│ Maturity Amount:    Rs. %12.2f     │\n"+ A);
+            System.out.println  ("│ Processing Fee:     Rs. %12.2f     │\n"+ fee);
+            System.out.println  ("├────────────────────────────────────────────┤");
+            System.out.println  ("│ FINAL AMOUNT:       Rs. %12.2f     │\n" + finalAmt);
+            System.out.println  ("└────────────────────────────────────────────┘");
             
         }
     }

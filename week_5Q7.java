@@ -84,13 +84,13 @@ public class week_5Q7
             }
             
             
-            System.out.println("\n┌──────────────────────────────────────┐");
-            System.out.println("│            RESULT                    │");
-            System.out.println("├──────────────────────────────────────┤");
-            System.out.printf("│ %-15s: %12.2f %c %-6.2f │\n", operation, n1, 
-                            opInput.charAt(0), n2);
-            System.out.printf("│ Result:            %18.2f │\n", result);
-            System.out.println("└──────────────────────────────────────┘");
+            System.out.println("\n┌────────────────────────────────────────┐");
+            System.out.println("  │            RESULT                      │");
+            System.out.println("  ├────────────────────────────────────────│");
+            System.out.println("  │ %-15s: %12.2f %c %-6.2f │\n" + operation + n1 +
+                            opInput.charAt(0) + n2);
+            System.out.println("  │ Result:            %18.2f │\n" + result);
+            System.out.println("  └────────────────────────────────────────┘");
             
             System.out.print("\nContinue? (Y/N): ");
             String response = sc.next();
