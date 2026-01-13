@@ -7,7 +7,7 @@ package week10;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class OnlineCourse extends course
+public class OnlineCourse extends Course
 {
     private double platformFee;
     

@@ -7,13 +7,13 @@ package week10;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class course
+public class Course
 {
     private int courseId;
     private String courseName;
     private double baseFee;
     
-    public course(int courseId, String courseName, double baseFee)
+    public Course(int courseId, String courseName, double baseFee)
     {
         this.courseId= courseId;
         this.courseName= courseName;
