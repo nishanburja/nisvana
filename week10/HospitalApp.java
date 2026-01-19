@@ -13,7 +13,7 @@ public class HospitalApp
     {
         Doctor d1 = new Doctor(
                 101,
-                "Dr. Ayush",
+                "Dr. Sapana",
                 "Cardiologist",
                 2000
         );
